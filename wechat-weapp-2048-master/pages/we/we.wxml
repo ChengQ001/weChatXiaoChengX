@@ -1,0 +1,11 @@
+
+<view  class='a name'>第</view>
+<view class='b name'>{{days}}</view>
+<view class='c name'>天</view>
+<view class='d name'>{{hours}}</view>
+<view class='e name'>小时</view>
+<view class='f name'>{{minutes}}</view>
+<view class='g name'>分钟</view>
+<view class='h name'>{{seconds}}</view>
+<view class='i name'>秒</view>
+ 

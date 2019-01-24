@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/About/About",
+    "pages/love/love",
+    "pages/photo/photo",
+ 
+    "pages/message/message"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "刘婷婷",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/我.png",
+        "iconPath": "pages/image/我.png",
+        "pagePath": "pages/About/About",
+        "text": "About"
+      },
+      {
+        "selectedIconPath": "pages/image/爱心.png",
+        "iconPath": "pages/image/爱心.png",
+        "pagePath": "pages/love/love",
+        "text": "Photo"
+      },
+      {
+        "selectedIconPath": "pages/image/亲吻.png",
+        "iconPath": "pages/image/亲吻.png",
+        "pagePath": "pages/photo/photo",
+        "text": "Message"
+      },
+     
+      {
+        "selectedIconPath": "pages/image/留言板.png",
+        "iconPath": "pages/image/留言板.png",
+        "pagePath": "pages/message/message",
+        "text": "Send"
+      }
+      
+    ]
+  }
+}

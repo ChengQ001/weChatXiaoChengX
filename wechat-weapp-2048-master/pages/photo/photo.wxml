@@ -1,0 +1,19 @@
+<!-- 
+<image class="img" src="../image/1.jpg" mode="widthFix"></image>
+<image class="img" src="../image/2.jpg" mode="widthFix"></image>
+<image class="img" src="../image/3.jpg" mode="widthFix"></image>
+<image class="img" src="../image/4.jpg" mode="widthFix"></image>
+<image class="img" src="../image/5.jpg" mode="widthFix"></image>
+<image class="img" src="../image/6.jpg" mode="widthFix"></image> -->
+
+<!-- <view>{{list[0].id}}</view> -->
+<view class='main'>
+<view wx:for="{{list}}"wx:for-index="id" wx:for-item="itemlame" wx:key="key">
+ <i-card class='userinfo-avatar' title="{{itemlame.player_url}}" extra="{{itemlame.createtime}}" thumb="{{itemlame.img_str}}">
+    <view slot="content">{{itemlame.title}}</view>
+    <!-- <view slot="footer">{{itemlame.title}}</view> -->
+</i-card>
+</view>
+ </view>
+
+ 

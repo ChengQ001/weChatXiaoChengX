@@ -1,0 +1,39 @@
+ .name{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+}
+.b{
+ font-size: 30px;
+ color:black;
+font-weight:bold;
+}
+.c{
+ font-size: 50px;
+ color:cyan;
+}
+.d{
+ font-size: 20px;
+ color:blue;
+}
+.e{
+ font-size: 40px;
+ color:aquamarine;
+}
+.f{
+ font-size: 25px;
+ color:coral;
+}
+.g{
+ font-size: 36px;
+ color:aqua;
+}
+.h{
+ font-size: 29px;
+ color:black;
+}
+.i{
+ font-size: 36px;
+ color:rebeccapurple;
+}

@@ -1,0 +1,23 @@
+ 
+
+
+<view class="page-body-info">
+<view class="test">
+<view class='name' style="display:flex">
+<image  class='userinfo-avatar' style="width:100px;height:100px;" src="{{userInfoAvatar}}"/>
+</view>
+<view class='name'>{{nickName}}</view>
+
+<view class='name'>{{sex}}</view>
+<view class='name'> {{province}}</view>
+<view class='name'> {{city}}</view>
+<view class='name'>{{motto}}</view>
+<view class="btn-area">
+<button open-type='getUserInfo' bindgetuserinfo="getUserInfo" type="primary" bindtap="getUserInfo">开启小程序之旅</button>
+</view>
+</view>
+</view>
+
+
+
+ 
